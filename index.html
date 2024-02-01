@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Site</title>
+
+  <!-- boostrap js and css links  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+
+  <!-- font wawesome link  -->
+  <script src="https://kit.fontawesome.com/6e76ce4fba.js" crossorigin="anonymous"></script>
+
+  <!-- css link  -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- jquery link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- js file link  -->
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+  <!-- navabr start   -->
+
+  <nav class="navbar navbar-expand-md navbar-light bg-white">
+    <div class="container">
+      <svg width="38" height="38" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-8 w-8">
+        <rect width="256" height="256" rx="60" fill="black"></rect>
+        <path
+          d="M197.9 149.8C196.972 158.975 193.935 167.811 189.025 175.618C184.116 183.424 177.468 189.989 169.6 194.8C163.9 198.3 157.7 201 151.3 202.8L148 165C153 161.4 156.5 155.6 156.9 149.4L197.9 149.7V149.8Z"
+          fill="white"></path>
+        <path
+          d="M198 110.3H156.9C157 103.5 153.4 96.9 148 92.8C142.454 88.7651 135.631 86.8817 128.8 87.5C125.8 87.8 122.9 88.5 120.2 89.5L99.6 58.5C111.8 53.3 125.6 51.7 139 52.9C152.793 53.8615 165.987 58.9094 176.9 67.4C183.096 72.8004 188.147 79.3881 191.754 86.7737C195.361 94.1593 197.451 102.193 197.9 110.4L198 110.3Z"
+          fill="white"></path>
+        <path
+          d="M151.3 202.8C139.98 205.816 128.138 206.328 116.6 204.3C103.243 202.25 90.7508 196.421 80.6 187.5C56.5 165.2 52.8 124.5 64.4 95.1C67.4053 86.8939 72.0747 79.3977 78.115 73.0821C84.1552 66.7665 91.4359 61.7679 99.5 58.4L120.2 89.4C117.6 90.4 115.2 91.8 112.9 93.6C102.5 101.8 99.9 116.6 100.1 129.9C100.2 142.7 102.9 156.9 113.1 164.7C117.796 168.116 123.398 170.064 129.2 170.3C135.6 170.6 142.2 169.2 147.5 165.5L148 165.1L151.3 202.8Z"
+          fill="#B2AEB9"></path>
+      </svg>
+      <a class="navbar-brand" href="#">Chatbase</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+        aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarID">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link active" aria-current="page" href="signup.html">Affiliates</a>
+          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+          <a class="nav-link active" aria-current="page" href="#">Resources</a>
+        </div>
+        <div class="d-flex">
+          <a class="nav-link navbar-login-button" href="#">Log in</a>
+          <a class="nav-link navbar-try-button" href="#">Try for free <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navabr end   -->
+
+  <!-- hero section start  -->
+
+  <section class="hero-section" id="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hero-section-left-side">
+            <h1 class="hero-heading">Custom ChatGPT for your website
+            </h1>
+            <p class="hero-para">Build a custom GPT, embed it on your website and let it handle<br>customer support,
+              lead generation, engage
+              with your users, and more.
+            </p>
+            <div class="d-flex">
+              <div>
+                <div>
+                  <button type="button" class="build-chat-bot-btn">Build your Chatbot →</button>
+                  <p class="hero-button-para">No credit card required</p>
+                </div>
+              </div>
+              <div>
+                <button type="button" class="watch-video-btn"><i class="fa-solid fa-circle-play"></i> Watch
+                  Video</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <img src="images/hero-section-image.png" class="hero-section-image" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- hero section end  -->
+
+  <!-- how its work section start  -->
+
+  <section class="how-its-work-section">
+    <div class="container">
+      <h3 class="how-its-work-heading">HOW IT WORKS</h3>
+      <p class="how-its-work-para">Add your data sources, train the AI, customize it to your liking, and add it to your
+        website.</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <ul class="m-0 p-0 list-unstyled">
+            <li class="accordian-item" data-image="images/slide1.webp">
+              <div class="d-flex justify-content-between accordian-item-child-div">
+                <div class="d-flex align-items-center">
+                  <p class="custom-accordian-number m-0 p-0">01</p>
+                  <p class="custom-accordian-heading m-0 p-0">Import your data</p>
+                </div>
+                <div class="accordian-right-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="accordian-toggle-div">
+                <p>Connect your data sources, upload files, or add a website for crawling, and Chatbase will use all of
+                  that data to train your chatbot.
+                </p>
+              </div>
+            </li>
+            <li class="accordian-item" data-image="images/slide2.webp">
+              <div class="d-flex justify-content-between accordian-item-child-div">
+                <div class="d-flex align-items-center">
+                  <p class="custom-accordian-number m-0 p-0">02</p>
+                  <p class="custom-accordian-heading m-0 p-0">Customize behavior & appearance</p>
+                </div>
+                <div class="accordian-right-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="accordian-toggle-div">
+                <p>Make your chatbot look like it's part of your website with custom colors and logos and make it match
+                  your brand's personality with custom instructions
+                </p>
+              </div>
+            </li>
+            <li class="accordian-item" data-image="images/slide3.webp">
+              <div class="d-flex justify-content-between accordian-item-child-div">
+                <div class="d-flex align-items-center">
+                  <p class="custom-accordian-number m-0 p-0">03</p>
+                  <p class="custom-accordian-heading m-0 p-0">Embed on your website</p>
+                </div>
+                <div class="accordian-right-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="accordian-toggle-div">
+                <p>Add a chat widget to any website with a simple embed code.</p>
+              </div>
+            </li>
+            <li class="accordian-item" data-image="images/slide4.webp">
+              <div class="d-flex justify-content-between accordian-item-child-div">
+                <div class="d-flex align-items-center">
+                  <p class="custom-accordian-number m-0 p-0">04</p>
+                  <p class="custom-accordian-heading m-0 p-0">Integrate with your tools</p>
+                </div>
+                <div class="accordian-right-icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="accordian-toggle-div">
+                <p>Connect your chatbot to your favorite tools like Slack, WhatsApp Zapier, and more.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6 accordian-image-show">
+          <img src="images/slide1.webp" class="accordian-images" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- how its work section end  -->
+
+  <!-- powerful features section start  -->
+
+  <section class="powerful-features">
+    <div class="container">
+      <h3 class="powerful-features-heading">POWERFUL FEATURES</h3>
+      <p class="powerful-features-para m-0 p-0">Everything you need for your no-code AI chatbot.</p>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-head">
+              <img src="images/card1.webp" class="card-image" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-tile">Trustworthy, Accurate Answers</h3>
+              <p class="card-para">With features like "Revise answers" and "Confidence score" you can be sure your
+                chatbot is giving the
+                right answers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-head">
+              <img src="images/card2.webp" class="card-image" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-tile">Lead Generation Engine</h3>
+              <p class="card-para">Collect leads and gather your customer's data, all while providing a personalized
+                experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-head">
+              <img src="images/card3.webp" class="card-image" alt="">
+            </div>
+            <div class="card-body">
+              <h3 class="card-tile">Advanced Analytics</h3>
+              <p class="card-para">Get insights into your chatbot’s interactions with your customers and use them to
+                improve its performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- powerful features section end  -->
+
+  <!-- category section start  -->
+
+  <div class="custom-divider">
+    <div class="custom-driver-children">
+
+    </div>
+  </div>
+
+  <section class="category-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                Multiple Data Sources
+              </h3>
+              <p class="category-description">
+                Import data from multiple sources to train your chatbot.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                Customizations
+              </h3>
+              <p class="category-description">
+                Customize your chatbot’s look and feel to match your brand’s style and website design.
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z">
+                </path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z"></path>
+              </svg>
+              <h3 class="category-heading">
+                Whitelabel
+              </h3>
+              <p class="category-description">
+                Remove Chatbase branding and use a custom domain.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                Privacy & Security
+
+              </h3>
+              <p class="category-description">
+                Your data is hosted on secure servers with robust encryption and access control.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                Auto-Retrain
+
+              </h3>
+              <p class="category-description">
+                Set your chatbot to retrain automatically and always be synced with your data.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                Integrations
+              </h3>
+              <p class="category-description">
+                Connect your chatbot to your favorite tools like Slack, WhatsApp Zapier, and more.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                Powerful AI Models
+              </h3>
+              <p class="category-description">
+                Choose from a variety of AI models, including GPT-3.5-turbo and GPT-4.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="category-card">
+            <div class="category-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" aria-hidden="true" width="30" class="text-zinc-900">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802">
+                </path>
+              </svg>
+              <h3 class="category-heading">
+                80+ Languanges
+              </h3>
+              <p class="category-description">
+                Reach your customers in their native language even if your data is in a different language.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- category section end  -->
+
+  <!-- footer start  -->
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="footer-content">
+            <div class="d-flex align-items-center">
+              <svg width="38" height="38" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8">
+                <rect width="256" height="256" rx="60" fill="black"></rect>
+                <path
+                  d="M197.9 149.8C196.972 158.975 193.935 167.811 189.025 175.618C184.116 183.424 177.468 189.989 169.6 194.8C163.9 198.3 157.7 201 151.3 202.8L148 165C153 161.4 156.5 155.6 156.9 149.4L197.9 149.7V149.8Z"
+                  fill="white"></path>
+                <path
+                  d="M198 110.3H156.9C157 103.5 153.4 96.9 148 92.8C142.454 88.7651 135.631 86.8817 128.8 87.5C125.8 87.8 122.9 88.5 120.2 89.5L99.6 58.5C111.8 53.3 125.6 51.7 139 52.9C152.793 53.8615 165.987 58.9094 176.9 67.4C183.096 72.8004 188.147 79.3881 191.754 86.7737C195.361 94.1593 197.451 102.193 197.9 110.4L198 110.3Z"
+                  fill="white"></path>
+                <path
+                  d="M151.3 202.8C139.98 205.816 128.138 206.328 116.6 204.3C103.243 202.25 90.7508 196.421 80.6 187.5C56.5 165.2 52.8 124.5 64.4 95.1C67.4053 86.8939 72.0747 79.3977 78.115 73.0821C84.1552 66.7665 91.4359 61.7679 99.5 58.4L120.2 89.4C117.6 90.4 115.2 91.8 112.9 93.6C102.5 101.8 99.9 116.6 100.1 129.9C100.2 142.7 102.9 156.9 113.1 164.7C117.796 168.116 123.398 170.064 129.2 170.3C135.6 170.6 142.2 169.2 147.5 165.5L148 165.1L151.3 202.8Z"
+                  fill="#B2AEB9"></path>
+              </svg>
+              <p class="footer-logo-text m-0 p-0">Chatbase</p>
+            </div>
+            <ul class="m-0 p-0 list-unstyled mt-3">
+              <li>
+                <p class="p-0 m-0  footer-links">Privacy Policy</p>
+              </li>
+              <li>
+                <p class="p-0 m-0  footer-links">Terms of Service</p>
+              </li>
+              <li>
+                <p class="p-0 m-0  footer-links">Cookie Preferences</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-end" style="padding-top: 2rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="text-white">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              fill="currentColor"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div style="border: 1px solid rgba(255, 255, 255, 0.1);">
+
+    </div>
+    <div class="footer-last-section">
+      <div class="container">
+        <button class="mb-4 mt-4 contact-support-button">Contact Support</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer end  -->
+
+  <script>
+    $(document).ready(function () {
+      // Hide all accordion content and right icons initially
+      $('.accordian-toggle-div').hide();
+      $('.accordian-right-icon').hide();
+      $('.accordian-right-icon').eq(0).show();
+      // Show the content of the first accordion item by default
+      $('.accordian-item:first-child .accordian-toggle-div').show();
+
+      // When hovering over an accordion item
+      $('.accordian-item').mouseenter(function () {
+        // Check if the accordion item is not already open
+        if (!$(this).find('.accordian-toggle-div').is(':visible')) {
+          // Hide all accordion content and right icons
+          $('.accordian-toggle-div').hide("slow");
+          $('.accordian-right-icon').hide("slow");
+          $('.accordian-images').attr('src', $(this).data('image'));
+
+          var selected = $(this).data('image');
+          var image = $('.accordian-images');
+          image.fadeOut('fast', function () {
+            image.attr('src', selected);
+            image.fadeIn('fast');
+          });
+
+          // Show the right icon and expand the content of the hovered accordion item
+          $(this).find('.accordian-right-icon').show("slow");
+          $(this).find('.accordian-toggle-div').slideDown();
+        }
+      });
+    });
+
+
+  </script>
+</body>
+
+</html>

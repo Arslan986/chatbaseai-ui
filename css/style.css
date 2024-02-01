@@ -1,0 +1,369 @@
+/* google fonts links  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+
+/* universal css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nvbar css start */
+
+.web-logo {
+    height: 38px;
+    width: 38px;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 0.9rem 1.8rem !important;
+}
+
+.navbar-login-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar-try-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: #27272A;
+    border-radius: 6px;
+}
+
+.navbar-try-button:hover {
+    color: white;
+}
+
+/* navbar css end  */
+
+/* hero section css start  */
+
+.hero-section {
+    width: 100%;
+}
+
+/* .hero-section-left-side{
+
+} */
+.hero-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #18181B;
+    font-size: 96px;
+    line-height: 96px;
+    margin-top: 7rem;
+
+
+}
+
+.hero-para {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #18181B;
+    font-weight: 500;
+}
+
+.build-chat-bot-btn {
+    padding: 8px 20px;
+    border-radius: 12px;
+    background-image: linear-gradient(155deg, rgb(124, 58, 237) 40%, rgb(248, 2, 130) 100%, rgb(253, 48, 155) 0px);
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(229, 231, 235);
+    line-height: 32px;
+    transform: none;
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    outline: rgb(255, 255, 255) dashed 0px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.build-chat-bot-btn:hover {
+    background-image: linear-gradient(155deg, rgb(124, 58, 237) 40%, rgb(255 166 213) 100%, rgb(253, 48, 155) 0px);
+}
+
+.hero-button-para {
+    font-size: 14px;
+    text-align: center;
+}
+
+.watch-video-btn {
+    background-color: none;
+    background: none;
+    border: none;
+    padding: 8px 20px;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+
+}
+
+.hero-section-image {
+    height: 500px
+}
+
+/* hero section css end  */
+
+/* how its work section css start  */
+
+.how-its-work-section {
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.how-its-work-heading {
+    color: #FD309B;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.how-its-work-para {
+    color: #18181B;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.custom-accordian-number {
+    font-size: 14px;
+    color: #18181B;
+    font-family: 'Inter', sans-serif;
+}
+
+.custom-accordian-heading {
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    padding-left: 1rem !important;
+
+}
+
+.accordian-item {
+    border-bottom: 1px solid #e5e7eb;
+
+}
+
+.accordian-item-child-div {
+    padding: 1.6rem 0rem;
+}
+
+.accordian-image-show {
+    background: radial-gradient(circle at center, rgba(69, 30, 137, 5) 0%, rgba(0, 0, 0, 1) 50%);
+}
+
+.accordian-images {
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+/* how its work section css end  */
+
+
+/* power full feature section css start  */
+
+.powerful-features {
+    width: 100%;
+    margin-top: 8rem;
+    padding: 4rem 0rem;
+}
+
+.powerful-features-heading {
+    color: #FD309B;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.powerful-features-para {
+    color: #18181B;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.card {
+    width: 382px;
+    max-width: 100%;
+    min-height: 433px;
+    margin-top: 2rem;
+}
+
+.card-head {
+    background-color: #E4E4E7;
+}
+
+.card-image {
+    width: 100%;
+    margin: auto;
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+.card-tile {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+/* power full feature section css end  */
+
+/* category  section css start  */
+
+.custom-driver-children {
+    background-image: radial-gradient(50% 50% at 50% 50%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 20%, rgba(124, 58, 237, 0) 100%);
+    height: 3px;
+    width: 308px;
+    margin: auto;
+}
+
+.category-section {
+    width: 100%;
+    margin: 3rem 0rem;
+}
+
+.category-card {
+    margin-top: 2rem;
+}
+
+.category-heading {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    margin-top: 0.6rem;
+}
+
+.category-description {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 200;
+}
+
+/* category  section css end  */
+
+/* footer section start  */
+.main-footer{
+    background-color: #18181B;
+}
+.footer-content{
+    padding: 2rem 0rem;
+}
+.footer-logo-text{
+    color: #fff;
+}
+.footer-links{
+    color: #fff;
+    font-size: 14px;
+}
+.footer-last-section{
+    width: 100%;
+}
+.contact-support-button{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+/* footer section end */
+
+
+
+
+/* signup page css start  */
+.main-signup {
+    background-color: #F2F6F9;
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.signup-page-heading {
+    color: #3D4D5F;
+}
+
+.signup-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.signup-form {
+    margin: auto;
+    width: 696px;
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 2.5rem 3rem;
+    box-shadow: 0 1px 2px #D4DDE7, 0 4px 12px 0px #D4DDE7;
+    border-radius: 0.5rem;
+}
+
+.horizontal-line {
+    margin: 2rem 0rem;
+}
+
+.signup-form-label {
+    padding: 0.6rem 0px;
+    font-weight: 600;
+}
+
+.signup-button {
+    width: 100%;
+    background-color: #69AFFF;
+    height: 45.6px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1.5rem;
+
+}
+
+.signup-text {
+    font-size: 14px;
+    color: rgba(61, 77, 95, 0.75);
+    margin-top: 1rem;
+}
+
+.login-text {
+    cursor: pointer;
+}
+
+.login-text:hover {
+    color: #69AFFF;
+}
+
+.dot-icon {
+    color: #D4DDE7;
+}
+
+.last-paras {
+    font-size: 16px;
+}
+
+/* signup page css end  */
+
+@media only screen and (max-width: 500px) {
+    .hero-heading {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .hero-section-left-side .d-flex{
+        flex-direction: column;
+    }
+    .hero-button-para{
+        text-align: left;
+        padding: 0px 22px;
+    }
+    .hero-section-image{
+        display: none;
+    }
+}
